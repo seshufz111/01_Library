@@ -19,4 +19,7 @@ router.get('/about', function(req,res){
     res.send('Welcome to App')
 })
 
+router.get('/Help', function(req,res){
+    res.send('Welcome to App')
+})
 module.exports = router;
