@@ -20,6 +20,6 @@ router.get('/about', function(req,res){
 })
 
 router.get('/Help', function(req,res){
-    res.send('Welcome to App')
+    res.send('Welcome to library')
 })
 module.exports = router;
