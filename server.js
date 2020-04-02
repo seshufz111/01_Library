@@ -8,6 +8,7 @@ const path = require('path');
 const hbs = require('hbs')
 const router = require('./Routers/app')
 require('./db/mongoose')
+const user = require('./Models/user')
 
 const app = express();
 const port = process.env.PORT || 5050;
