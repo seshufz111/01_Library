@@ -15,4 +15,8 @@ router.get('/index', function(req,res){
     res.render('index', {name:'Satya', Role:'Developer'})
 })
 
+router.get('/about', function(req,res){
+    res.send('Welcome to App')
+})
+
 module.exports = router;
